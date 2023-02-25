@@ -47,8 +47,8 @@ source bin/activate
 # Functions
 This tool consists of the following functions:
 
-** get_api_key(fw_ip, fw_user, fw_pass): Retrieves the API key for the specified firewall IP address, username, and password.
-get_object_only(api_key, fw_ip): Retrieves a list of firewall objects for the specified API key and firewall IP address.
-get_sec_rules(fw_ip, api_key): Retrieves a list of firewall security rules and policies for the specified firewall IP address and API key.
-get_firewall_info(): Prompts the user to enter the firewall IP address, username, and password.
-compare_lists(list1, list2): Compares two lists and returns the matching and non-matching values.
+1. get_api_key(fw_ip, fw_user, fw_pass): Retrieves the API key for the specified firewall IP address, username, and password.
+2. get_object_only(api_key, fw_ip): Retrieves a list of firewall objects for the specified API key and firewall IP address.
+3. get_sec_rules(fw_ip, api_key): Retrieves a list of firewall security rules and policies for the specified firewall IP address and API key.
+4. get_firewall_info(): Prompts the user to enter the firewall IP address, username, and password.
+5. compare_lists(list1, list2): Compares two lists and returns the matching and non-matching values.
