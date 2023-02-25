@@ -17,7 +17,7 @@ Before running this tool, you need to have the following:
 Python 3.x installed on your system
 The requests library installed. You can install it using the following command: pip install requests
 Pandas library installed. You can install it using the following command: pip install pandas
-Access to a Palo Alto firewall with API access enabled
+Access to a Palo Alto firewall with API access enabled. In this code,testing was done with Palo Alto Firewalls running v10.0 Code in standalone mode.
 
 # Setup
 
