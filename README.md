@@ -49,6 +49,7 @@ This tool consists of the following functions:
 
 1. get_api_key(fw_ip, fw_user, fw_pass): Retrieves the API key for the specified firewall IP address, username, and password.
 2. get_object_only(api_key, fw_ip): Retrieves a list of firewall objects for the specified API key and firewall IP address.
-3. get_sec_rules(fw_ip, api_key): Retrieves a list of firewall security rules and policies for the specified firewall IP address and API key.
-4. get_firewall_info(): Prompts the user to enter the firewall IP address, username, and password.
-5. compare_lists(list1, list2): Compares two lists and returns the matching and non-matching values.
+3. get_object_details(api_key,fw_ip): Retrieves a detailed list of firewall objects (IP address & Object Name) for the specified API key and firewall IP address.  
+4. get_sec_rules(fw_ip, api_key): Retrieves a list of firewall security rules and policies for the specified firewall IP address and API key.
+5. get_firewall_info(): Prompts the user to enter the firewall IP address, username, and password.
+6. compare_lists(list1, list2): Compares two lists and returns the matching and non-matching values.
