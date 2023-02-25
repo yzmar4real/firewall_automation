@@ -4,8 +4,7 @@ Python Code that allows Security Engineers to audit their palo alto firewalls, s
 
 # Use-Case Description 
 
-
-
+The thoughts around the use-case for this project is built around CyberSecurity Engineers encountering a brownfield environment and have to audit & assess existing policies, objects, etc. having an automated way of extracting, filtering, comparing and documenting the results of objects (e.g tags, service ports, applications and in this case IP-Objects), goes a long way in providing a solid base to start from. 
 
 # Contacts
 
@@ -44,3 +43,12 @@ source bin/activate
 2. Follow the prompts to enter the firewall IP address, username, and password
 
 3. The tool will retrieve the firewall objects and security rules and policies, compare them, and output the used and non-used objects as json files and a excel sheet. 
+
+# Functions
+This tool consists of the following functions:
+
+** get_api_key(fw_ip, fw_user, fw_pass): Retrieves the API key for the specified firewall IP address, username, and password.
+get_object_only(api_key, fw_ip): Retrieves a list of firewall objects for the specified API key and firewall IP address.
+get_sec_rules(fw_ip, api_key): Retrieves a list of firewall security rules and policies for the specified firewall IP address and API key.
+get_firewall_info(): Prompts the user to enter the firewall IP address, username, and password.
+compare_lists(list1, list2): Compares two lists and returns the matching and non-matching values.
